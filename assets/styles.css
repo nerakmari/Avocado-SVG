@@ -1,0 +1,62 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@700&display=swap');*/
+
+body {
+  background-color: rosybrown;
+  
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 45pt;
+  color: white;
+
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 30pt;
+  color: forestgreen;
+
+}
+
+p, a {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25pt;
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* SVG Touch Up*/
+
+svg {
+  display: block;
+  margin: auto;
+
+  max-width: 500px;
+  height: auto;
+}
+
+.outer-shell {
+  stroke-width: 10px;
+  stroke: forestgreen;
+}
+
+.blush {
+  fill: rgba(221, 50, 150, 0.5);
+  stroke-width: 3px;
+  stroke:wheat;
+}
+
+@media screen and (max-width: 500px) {
+  svg{
+    max-width: 350px;
+  }
+}
