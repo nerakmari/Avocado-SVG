@@ -1,4 +1,4 @@
-# CPNT-201: Assignment 3: SVG Graphic
+# SVG Graphic
 
 ## Owner and Repository Maintainer: Karen Sule
 
